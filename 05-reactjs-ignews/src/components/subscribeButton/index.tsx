@@ -14,7 +14,7 @@ export function SubscribeButton () {
             return;
         }
 
-        if (session.activeSubscription){
+        if(!(session?.expires)){ // se não expirou
             router.push('/posts');
             return;
         }

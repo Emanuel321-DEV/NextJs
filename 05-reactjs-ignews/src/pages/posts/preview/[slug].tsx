@@ -26,7 +26,7 @@ export default function PostPreview({ post }: PostPreviewProps){
     const router = useRouter() //Chamar o useRouter
 
     useEffect(() => {
-        if(session?.activeSubscription){
+        if(!(session?.expires)){ // se não expirou
             router.push(`/posts/${post.slug}`)
         }
            

@@ -44,7 +44,7 @@ export const getServerSideProps: GetServerSideProps = async ({req, params}) => {
         const { slug } = params; // Temos aqui acesso ao slug do post que queremos carregar
 
 
-        if(!session?.activeSubscription){
+        if(!(session?.expires)){ // se não expirou
             return {
                 redirect: {
                     destination: `/posts/preview/${slug}`,
