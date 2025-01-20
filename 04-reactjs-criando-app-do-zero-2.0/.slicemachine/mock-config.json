@@ -1,0 +1,30 @@
+{
+  "_cts": {
+    "posts": {
+      "content": {
+        "body": {
+          "config": {
+            "patternType": "STORY",
+            "blocks": 3
+          }
+        }
+      }
+    },
+    "teste": {
+      "content": {
+        "title": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        },
+        "body": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        }
+      }
+    }
+  }
+}

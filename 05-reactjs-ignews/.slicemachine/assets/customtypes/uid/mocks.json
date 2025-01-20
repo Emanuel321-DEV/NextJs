@@ -1,0 +1,21 @@
+{
+  "id": "7e5906dd-1d6a-47a8-b7c7-e52c6bd20e0e",
+  "uid": "totam-ex-beatae",
+  "type": "uid",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Monetize clicks-and-mortar functionalities",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Proident laborum occaecat tempor nisi consequat aute incididunt pariatur in sit culpa.",
+        "spans": []
+      }
+    ]
+  }
+}
